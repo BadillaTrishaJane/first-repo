@@ -1,0 +1,91 @@
+*{
+	margin:0 ;
+	padding: 0;
+    font-family: 'Zen Antique Soft', serif; 
+}
+.body{
+	min-height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(24, 44, 43, 0.651),rgba(30, 54, 63, 0.596)),url(bg.jpg);
+	background-position: center;
+	background-size: cover ;
+	position: relative ;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration:none;
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    font-family: calibri;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    box-sizing: border-box;
+    padding: 10px 50px;
+    background-color:#F4F7FF;
+    box-shadow:2px 2px 12px rgba(0,0,0,0.05); 
+    z-index: 1;
+}
+ 
+.menu{
+    display: flex;
+}
+.menu li a{
+    padding: 10px 15px;
+    color:#6c707c;
+    font-size: 12px;
+    
+}
+.lang{
+    color:#292929;
+}
+.logo{
+    font-size: 25px;
+    font-weight: bold;
+    color:#292929;
+    font-family:Poppins;
+}
+.toggle{
+    display: none;
+}
+.active a,
+.menu li a:hover{
+    background-color:#292929;
+    color:#FFF!important;
+    font-weight: bold;
+    transition: all ease 0.4s;
+}
+.name{
+    font-family: calibri;
+    width: 500px;
+    position: absolute;
+    left: 20%;
+    top: 50%;
+    transform: translate(-20%,-50%);
+}
+.name p:nth-child(1),.name .details{
+    color:#c0c3cc;
+    font-size: 16px;
+}
+.name h1{
+    font-family:Poppins;
+    font-size: 40px;
+    margin:0px;
+    letter-spacing: 3px;
+    color:#WHITE;
+}
+.topright {
+    position: absolute;
+    top: 8px;
+    right: 100px;
+
+}
